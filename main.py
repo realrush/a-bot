@@ -61,7 +61,7 @@ async def on_message(message):
     elif message.content.startswith('!glassbin'):
         await message.channel.send("Glass goes to the green bin")
     elif message.content.startswith('!organicbin'):
-        await message.channel.send("Other organic stuff goes to the orange bin")
+        await message.channel.send("Other organic stuff goes to the brown bin")
     elif message.content.startswith('!unsaveingtrash'):
         await message.channel.send("The other trash goes to the black bin")
 
